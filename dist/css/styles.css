@@ -1087,6 +1087,7 @@ body, input, select, textarea, button {
                 column-count: 3; } }
   .gallery__photo {
     float: left; }
+@media (min-width: 75em) {float: none;}
     .gallery__photo img {
       margin-bottom: 1.125em; }
 
